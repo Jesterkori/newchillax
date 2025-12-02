@@ -1,0 +1,35 @@
+Mental Wellness App - Project Structure
+========================================
+
+mental-wellness-app/
+│
+├── node_modules/                   # Dependencies
+├── src/                            # Source code
+│   ├── assets/                     # Images, icons, fonts
+│   ├── components/                 # Reusable components
+│   │   ├── chatbot/
+│   │   │   └── ChatBot.js
+│   │   ├── common/
+│   │   ├── dashboard/
+│   │   ├── exercises/
+│   │   ├── journal/
+│   │   └── sleep/
+│   ├── context/
+│   │   └── AppContext.js
+│   ├── navigation/
+│   │   └── AppNavigator.js
+│   ├── screens/
+│   │   ├── DashboardScreen.js
+│   │   ├── ExercisesScreen.js
+│   │   ├── JournalScreen.js
+│   │   └── SleepScreen.js
+│   ├── services/
+│   └── utils/
+│       └── wellnessTips.js
+│
+├── App.js
+├── package.json
+├── README.md
+├── CONTRIBUTING.md
+├── TEAM_SETUP.md
+└── HACKATHON_FEATURES.md
