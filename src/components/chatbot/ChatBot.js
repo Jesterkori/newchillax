@@ -159,7 +159,7 @@ const ChatBot = () => {
             <View style={styles.quickRepliesContainer}>
               <Text style={styles.quickRepliesTitle}>Quick replies:</Text>
               <ScrollView
-                horizontal
+                horizontal={true}
                 showsHorizontalScrollIndicator={false}
                 contentContainerStyle={styles.quickRepliesContent}
               >
@@ -184,7 +184,7 @@ const ChatBot = () => {
               placeholderTextColor="#9ca3af"
               value={inputText}
               onChangeText={setInputText}
-              multiline
+              multiline={true}
             />
             <TouchableOpacity
               style={[

@@ -60,11 +60,10 @@ const JournalScreen = () => {
           style={styles.textInput}
           placeholder="Write about your day, thoughts, and feelings..."
           placeholderTextColor="#9ca3af"
-          multiline
+          multiline={true}
           numberOfLines={10}
           value={journalEntry}
           onChangeText={setJournalEntry}
-          textAlignVertical="top"
         />
         <TouchableOpacity style={styles.saveButton}>
           <Ionicons name="save" size={20} color="#fff" />
@@ -253,6 +252,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     borderRadius: 12,
     padding: 16,
+    paddingTop: 16,
     fontSize: 16,
     color: '#111827',
     minHeight: 200,
